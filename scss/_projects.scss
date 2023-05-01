@@ -1,0 +1,43 @@
+/*PROJECT*/
+
+.h2{
+    text-align: left;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: orange
+}
+
+@for $i from 1 through 3 {
+    .table {
+        &:nth-child(#{$i}){
+            width: 700px;
+            height: 120px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: flex-start;}
+        }
+}
+
+#table tr {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+footer {
+    height: 30px;
+        p {
+            font-size: 10px;
+            font-weight: 100;
+            text-align: center;
+            padding:  3px auto;
+            bottom: 0px;
+        }
+}

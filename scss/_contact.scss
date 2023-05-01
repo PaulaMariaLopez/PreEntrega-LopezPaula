@@ -1,0 +1,77 @@
+/*CONTACT*/
+
+
+.main-section-form {
+    height: auto;
+    border-radius: 5px;
+    background-color:rgba(2, 2, 2, 0.226);
+    padding: 20px;
+    margin: 20px 137px;
+
+}
+
+
+form {
+    input {
+    color:rgb(249, 244, 244); 
+    border: 1px solid white;
+    background-color:rgba(2, 2, 2);
+    border-radius: 2px;
+    font-size: 18px;
+    margin: 9px auto;
+    }
+    select {
+        color:rgb(249, 244, 244); 
+        border: 1px solid white;
+        background-color:rgba(2, 2, 2);
+        border-radius: 2px;
+        font-size: 18px;
+        width: auto;
+        margin: 9px 0px;
+    
+    }
+
+    textarea {
+        color:rgb(249, 244, 244); 
+        border: 1px solid white;
+        background-color:rgba(2, 2, 2);
+        border-radius: 2px;
+        font-size: 18px;
+        width: auto;
+        margin: 9px 0px;
+    }
+
+    fieldset {
+        border-width: 0px;
+        width: auto;
+    
+    }
+
+}
+
+#form input button {
+    color:rgb(249, 244, 244); 
+    border: 1px solid white;
+    background-color:rgba(2, 2, 2);
+    border-radius: 2px;
+    font-size: 18px;
+    margin: 9px 0px;
+
+}
+
+form input,
+form select {
+    border: 1px solid white;
+    border-radius: 2px;
+} 
+
+footer {
+    height: 30px;
+        p {
+            font-size: 10px;
+            font-weight: 100;
+            text-align: center;
+            padding:  3px auto;
+            bottom: 0px;
+        }
+}
